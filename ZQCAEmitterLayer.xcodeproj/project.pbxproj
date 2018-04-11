@@ -9,23 +9,48 @@
 /* Begin PBXBuildFile section */
 		E934ED25207B582D0066F5E6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E934ED24207B582D0066F5E6 /* main.m */; };
 		E934ED28207B582D0066F5E6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E934ED27207B582D0066F5E6 /* AppDelegate.m */; };
-		E934ED2B207B582D0066F5E6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E934ED2A207B582D0066F5E6 /* ViewController.m */; };
-		E934ED2E207B582D0066F5E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E934ED2C207B582D0066F5E6 /* Main.storyboard */; };
-		E934ED30207B582D0066F5E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E934ED2F207B582D0066F5E6 /* Assets.xcassets */; };
 		E934ED33207B582D0066F5E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E934ED31207B582D0066F5E6 /* LaunchScreen.storyboard */; };
+		E934ED56207B59380066F5E6 /* ZQTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = E934ED55207B59380066F5E6 /* ZQTabBarController.m */; };
+		E934ED5F207B602C0066F5E6 /* ZQSnowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E934ED5E207B602C0066F5E6 /* ZQSnowViewController.m */; };
+		E934ED62207B60480066F5E6 /* ZQFireViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E934ED61207B60480066F5E6 /* ZQFireViewController.m */; };
+		E934ED65207B606B0066F5E6 /* ZQFireworksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E934ED64207B606B0066F5E6 /* ZQFireworksViewController.m */; };
+		E934ED6C207B63040066F5E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E934ED6B207B63040066F5E6 /* Assets.xcassets */; };
+		E934ED75207C96080066F5E6 /* ZQCAEmitterLayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = E934ED74207C96080066F5E6 /* ZQCAEmitterLayerView.m */; };
+		E934ED7F207CA6740066F5E6 /* ZQWeatherView.m in Sources */ = {isa = PBXBuildFile; fileRef = E934ED7E207CA6740066F5E6 /* ZQWeatherView.m */; };
+		E934ED83207CA8150066F5E6 /* ZQBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E934ED82207CA8150066F5E6 /* ZQBaseViewController.m */; };
+		E934ED89207CA9EA0066F5E6 /* ZQRainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E934ED88207CA9EA0066F5E6 /* ZQRainViewController.m */; };
+		E934ED8C207CB3670066F5E6 /* ZQFireworksView.m in Sources */ = {isa = PBXBuildFile; fileRef = E934ED8B207CB3670066F5E6 /* ZQFireworksView.m */; };
+		E934ED92207CB8F40066F5E6 /* ZQFireView.m in Sources */ = {isa = PBXBuildFile; fileRef = E934ED91207CB8F40066F5E6 /* ZQFireView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E934ED20207B582D0066F5E6 /* ZQCAEmitterLayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZQCAEmitterLayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E934ED24207B582D0066F5E6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E934ED26207B582D0066F5E6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		E934ED27207B582D0066F5E6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E934ED29207B582D0066F5E6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E934ED2A207B582D0066F5E6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		E934ED2D207B582D0066F5E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E934ED2F207B582D0066F5E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E934ED26207B582D0066F5E6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../../AppDelegate.h; sourceTree = "<group>"; };
+		E934ED27207B582D0066F5E6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../../AppDelegate.m; sourceTree = "<group>"; };
 		E934ED32207B582D0066F5E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		E934ED34207B582D0066F5E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E934ED34207B582D0066F5E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../../Info.plist; sourceTree = "<group>"; };
+		E934ED54207B59380066F5E6 /* ZQTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQTabBarController.h; sourceTree = "<group>"; };
+		E934ED55207B59380066F5E6 /* ZQTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQTabBarController.m; sourceTree = "<group>"; };
+		E934ED5D207B602C0066F5E6 /* ZQSnowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQSnowViewController.h; sourceTree = "<group>"; };
+		E934ED5E207B602C0066F5E6 /* ZQSnowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQSnowViewController.m; sourceTree = "<group>"; };
+		E934ED60207B60480066F5E6 /* ZQFireViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQFireViewController.h; sourceTree = "<group>"; };
+		E934ED61207B60480066F5E6 /* ZQFireViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQFireViewController.m; sourceTree = "<group>"; };
+		E934ED63207B606B0066F5E6 /* ZQFireworksViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQFireworksViewController.h; sourceTree = "<group>"; };
+		E934ED64207B606B0066F5E6 /* ZQFireworksViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQFireworksViewController.m; sourceTree = "<group>"; };
+		E934ED6B207B63040066F5E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E934ED73207C96080066F5E6 /* ZQCAEmitterLayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZQCAEmitterLayerView.h; path = ../ZQCAEmitterLayerView.h; sourceTree = "<group>"; };
+		E934ED74207C96080066F5E6 /* ZQCAEmitterLayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZQCAEmitterLayerView.m; path = ../ZQCAEmitterLayerView.m; sourceTree = "<group>"; };
+		E934ED7D207CA6740066F5E6 /* ZQWeatherView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQWeatherView.h; sourceTree = "<group>"; };
+		E934ED7E207CA6740066F5E6 /* ZQWeatherView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQWeatherView.m; sourceTree = "<group>"; };
+		E934ED81207CA8150066F5E6 /* ZQBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQBaseViewController.h; sourceTree = "<group>"; };
+		E934ED82207CA8150066F5E6 /* ZQBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQBaseViewController.m; sourceTree = "<group>"; };
+		E934ED87207CA9EA0066F5E6 /* ZQRainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQRainViewController.h; sourceTree = "<group>"; };
+		E934ED88207CA9EA0066F5E6 /* ZQRainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQRainViewController.m; sourceTree = "<group>"; };
+		E934ED8A207CB3670066F5E6 /* ZQFireworksView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZQFireworksView.h; path = ../../Others/View/ZQFireworksView.h; sourceTree = "<group>"; };
+		E934ED8B207CB3670066F5E6 /* ZQFireworksView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZQFireworksView.m; path = ../../Others/View/ZQFireworksView.m; sourceTree = "<group>"; };
+		E934ED90207CB8F40066F5E6 /* ZQFireView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZQFireView.h; sourceTree = "<group>"; };
+		E934ED91207CB8F40066F5E6 /* ZQFireView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZQFireView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,14 +83,8 @@
 		E934ED22207B582D0066F5E6 /* ZQCAEmitterLayer */ = {
 			isa = PBXGroup;
 			children = (
-				E934ED26207B582D0066F5E6 /* AppDelegate.h */,
-				E934ED27207B582D0066F5E6 /* AppDelegate.m */,
-				E934ED29207B582D0066F5E6 /* ViewController.h */,
-				E934ED2A207B582D0066F5E6 /* ViewController.m */,
-				E934ED2C207B582D0066F5E6 /* Main.storyboard */,
-				E934ED2F207B582D0066F5E6 /* Assets.xcassets */,
-				E934ED31207B582D0066F5E6 /* LaunchScreen.storyboard */,
-				E934ED34207B582D0066F5E6 /* Info.plist */,
+				E934ED3A207B58A80066F5E6 /* Classes */,
+				E934ED6B207B63040066F5E6 /* Assets.xcassets */,
 				E934ED23207B582D0066F5E6 /* Supporting Files */,
 			);
 			path = ZQCAEmitterLayer;
@@ -77,6 +96,221 @@
 				E934ED24207B582D0066F5E6 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E934ED3A207B58A80066F5E6 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E934ED47207B58A80066F5E6 /* Main */,
+				E934ED4C207B58A80066F5E6 /* Rain */,
+				E934ED50207B58A80066F5E6 /* Snow */,
+				E934ED3B207B58A80066F5E6 /* Fire */,
+				E934ED3F207B58A80066F5E6 /* Fireworks */,
+				E934ED4B207B58A80066F5E6 /* Others */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		E934ED3B207B58A80066F5E6 /* Fire */ = {
+			isa = PBXGroup;
+			children = (
+				E934ED3D207B58A80066F5E6 /* Model */,
+				E934ED3E207B58A80066F5E6 /* View */,
+				E934ED3C207B58A80066F5E6 /* Controller */,
+			);
+			path = Fire;
+			sourceTree = "<group>";
+		};
+		E934ED3C207B58A80066F5E6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E934ED60207B60480066F5E6 /* ZQFireViewController.h */,
+				E934ED61207B60480066F5E6 /* ZQFireViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E934ED3D207B58A80066F5E6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E934ED3E207B58A80066F5E6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E934ED90207CB8F40066F5E6 /* ZQFireView.h */,
+				E934ED91207CB8F40066F5E6 /* ZQFireView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E934ED3F207B58A80066F5E6 /* Fireworks */ = {
+			isa = PBXGroup;
+			children = (
+				E934ED41207B58A80066F5E6 /* Model */,
+				E934ED42207B58A80066F5E6 /* View */,
+				E934ED40207B58A80066F5E6 /* Controller */,
+			);
+			path = Fireworks;
+			sourceTree = "<group>";
+		};
+		E934ED40207B58A80066F5E6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E934ED63207B606B0066F5E6 /* ZQFireworksViewController.h */,
+				E934ED64207B606B0066F5E6 /* ZQFireworksViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E934ED41207B58A80066F5E6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E934ED42207B58A80066F5E6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E934ED8A207CB3670066F5E6 /* ZQFireworksView.h */,
+				E934ED8B207CB3670066F5E6 /* ZQFireworksView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E934ED47207B58A80066F5E6 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				E934ED49207B58A80066F5E6 /* Model */,
+				E934ED4A207B58A80066F5E6 /* View */,
+				E934ED48207B58A80066F5E6 /* Controller */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		E934ED48207B58A80066F5E6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E934ED54207B59380066F5E6 /* ZQTabBarController.h */,
+				E934ED55207B59380066F5E6 /* ZQTabBarController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E934ED49207B58A80066F5E6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E934ED4A207B58A80066F5E6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E934ED4B207B58A80066F5E6 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				E934ED76207C9EA20066F5E6 /* View */,
+				E934ED80207CA7F20066F5E6 /* Controller */,
+				E934ED26207B582D0066F5E6 /* AppDelegate.h */,
+				E934ED27207B582D0066F5E6 /* AppDelegate.m */,
+				E934ED31207B582D0066F5E6 /* LaunchScreen.storyboard */,
+				E934ED34207B582D0066F5E6 /* Info.plist */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		E934ED4C207B58A80066F5E6 /* Rain */ = {
+			isa = PBXGroup;
+			children = (
+				E934ED4E207B58A80066F5E6 /* Model */,
+				E934ED4F207B58A80066F5E6 /* View */,
+				E934ED4D207B58A80066F5E6 /* Controller */,
+			);
+			path = Rain;
+			sourceTree = "<group>";
+		};
+		E934ED4D207B58A80066F5E6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E934ED87207CA9EA0066F5E6 /* ZQRainViewController.h */,
+				E934ED88207CA9EA0066F5E6 /* ZQRainViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E934ED4E207B58A80066F5E6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E934ED4F207B58A80066F5E6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E934ED50207B58A80066F5E6 /* Snow */ = {
+			isa = PBXGroup;
+			children = (
+				E934ED52207B58A80066F5E6 /* Model */,
+				E934ED53207B58A80066F5E6 /* View */,
+				E934ED51207B58A80066F5E6 /* Controller */,
+			);
+			path = Snow;
+			sourceTree = "<group>";
+		};
+		E934ED51207B58A80066F5E6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E934ED5D207B602C0066F5E6 /* ZQSnowViewController.h */,
+				E934ED5E207B602C0066F5E6 /* ZQSnowViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E934ED52207B58A80066F5E6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E934ED53207B58A80066F5E6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E934ED76207C9EA20066F5E6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E934ED73207C96080066F5E6 /* ZQCAEmitterLayerView.h */,
+				E934ED74207C96080066F5E6 /* ZQCAEmitterLayerView.m */,
+				E934ED7D207CA6740066F5E6 /* ZQWeatherView.h */,
+				E934ED7E207CA6740066F5E6 /* ZQWeatherView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E934ED80207CA7F20066F5E6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E934ED81207CA8150066F5E6 /* ZQBaseViewController.h */,
+				E934ED82207CA8150066F5E6 /* ZQBaseViewController.m */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,9 +370,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E934ED6C207B63040066F5E6 /* Assets.xcassets in Resources */,
 				E934ED33207B582D0066F5E6 /* LaunchScreen.storyboard in Resources */,
-				E934ED30207B582D0066F5E6 /* Assets.xcassets in Resources */,
-				E934ED2E207B582D0066F5E6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,29 +382,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E934ED2B207B582D0066F5E6 /* ViewController.m in Sources */,
+				E934ED7F207CA6740066F5E6 /* ZQWeatherView.m in Sources */,
 				E934ED28207B582D0066F5E6 /* AppDelegate.m in Sources */,
+				E934ED56207B59380066F5E6 /* ZQTabBarController.m in Sources */,
+				E934ED75207C96080066F5E6 /* ZQCAEmitterLayerView.m in Sources */,
+				E934ED89207CA9EA0066F5E6 /* ZQRainViewController.m in Sources */,
+				E934ED5F207B602C0066F5E6 /* ZQSnowViewController.m in Sources */,
+				E934ED65207B606B0066F5E6 /* ZQFireworksViewController.m in Sources */,
+				E934ED8C207CB3670066F5E6 /* ZQFireworksView.m in Sources */,
+				E934ED62207B60480066F5E6 /* ZQFireViewController.m in Sources */,
 				E934ED25207B582D0066F5E6 /* main.m in Sources */,
+				E934ED92207CB8F40066F5E6 /* ZQFireView.m in Sources */,
+				E934ED83207CA8150066F5E6 /* ZQBaseViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E934ED2C207B582D0066F5E6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E934ED2D207B582D0066F5E6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E934ED31207B582D0066F5E6 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				E934ED32207B582D0066F5E6 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

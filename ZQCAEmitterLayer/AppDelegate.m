@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "ZQTabBarController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,14 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    
+    UITabBarController *tabBarVc = [[ZQTabBarController alloc] init];
+    self.window.rootViewController = tabBarVc;
+    
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
